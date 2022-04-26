@@ -8,6 +8,7 @@ const GameBoard = (() => {
 
 const Player = (symbol) => {
     
+    return { symbol }
 }
 
 const GameController = (() => {

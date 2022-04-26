@@ -1,18 +1,25 @@
+:root {
+    box-sizing: border-box;
+}
+html {
+    box-sizing: border-box;
+}
+
 .container {
     justify-content: center;
 }
 
 .board {
     display: flex;
-    flex-wrap: wrap;
-    width:1000px;
-    height: 1000px;
+    flex-wrap:wrap;
+    width: 600px;
+    height: 600px;
 }
 
 .inner-box {
-    width: 32%;
+    width: 33%;
     height: 33%;
-    border-width: 5px;
+    border-width: 1px;
     border-style: solid;
     
 }
